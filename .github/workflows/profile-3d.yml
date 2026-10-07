@@ -15,6 +15,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: profile-3d
+  cancel-in-progress: true
+
 jobs:
   build:
     runs-on: ubuntu-latest
