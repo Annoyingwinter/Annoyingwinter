@@ -14,6 +14,10 @@ on:
 permissions:
   contents: write # 允许往 output 分支推文件
 
+concurrency:
+  group: snake
+  cancel-in-progress: true # 连续触发时只跑最新一次，防止抢分支
+
 jobs:
   generate:
     runs-on: ubuntu-latest
