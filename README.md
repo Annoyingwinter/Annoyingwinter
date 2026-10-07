@@ -12,10 +12,10 @@
 <!-- 3D 贡献图：每日重建 -->
 ![](./profile-3d-contrib/profile-green-animate.svg)
 
-<!-- 电子鸡：状态由最近 90 天公开提交计算，断更 21 天会死 -->
+<!-- 电子鸡：状态由最近 90 天公开提交计算，断更 21 天会死；觉得太大改小 width 即可 -->
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://commitchi.pages.dev/api/card?u=Annoyingwinter&theme=dark" />
-  <img alt="commitchi" src="https://commitchi.pages.dev/api/card?u=Annoyingwinter" />
+  <img alt="commitchi" width="100%" src="https://commitchi.pages.dev/api/card?u=Annoyingwinter" />
 </picture>
 
 <!-- 公开慢棋：任何人可在 issue 中走子 -->
