@@ -9,14 +9,18 @@
   <img alt="snake" src="https://raw.githubusercontent.com/Annoyingwinter/Annoyingwinter/output/github-snake.svg" />
 </picture>
 
-<!-- 3D 贡献图：每日重建 -->
-![](./profile-3d-contrib/profile-green-animate.svg)
+<!-- 3D 贡献图：每日重建；嫌高调小 width（原始比例 1280x850） -->
+<p align="center">
+  <img src="./profile-3d-contrib/profile-green-animate.svg" width="520" alt="3D contributions" />
+</p>
 
-<!-- 电子鸡：状态由最近 90 天公开提交计算，断更 21 天会死；觉得太大改小 width 即可 -->
+<!-- 电子鸡：状态由最近 90 天公开提交计算，断更 21 天会死；嫌高调小 width（原始比例 528x288） -->
+<p align="center">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://commitchi.pages.dev/api/card?u=Annoyingwinter&theme=dark" />
-  <img alt="commitchi" width="100%" src="https://commitchi.pages.dev/api/card?u=Annoyingwinter" />
+  <img alt="commitchi" width="500" src="https://commitchi.pages.dev/api/card?u=Annoyingwinter" />
 </picture>
+</p>
 
 <!-- 公开慢棋：任何人可在 issue 中走子 -->
 ♟️ [play-chess](https://github.com/Annoyingwinter/play-chess) · 提 issue 即可走子
